@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-  "build": "webpack"
+    "start":"json-server -p 3006 -w db.json"
   },
   "keywords": [],
   "author": "",
